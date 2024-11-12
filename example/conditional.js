@@ -1,22 +1,23 @@
-let a=6, b=4, c=2
-if(a<b){
-    console.log(a+b)
-}else{
-    if(a>c){
-        console.log(a-b)
-    }else{
-        console.log(c+b)
+let number1 = 6, number2 = 4, number3 = 2
+
+if (number1 < number2) {
+    console.log(number1 + number2);
+} else {
+    if (number1 > number3) {
+        console.log(number1 - number2);
+    } else {
+        console.log(number3 + number2);
     }
 }
 
-if(a===2 && b===4){
-    console.log("sucess")
-}else{
-    console.log("fail")
+if (number1 === 2 && number2 === 4) {
+    console.log("success");
+} else {
+    console.log("fail");
 }
 
-if(a===2 || b===4){
-    console.log("ex2 sucess")
-}else{
-    console.log("ex2 fail")
+if (number1 === 2 || number2 === 4) {
+    console.log("ex2 success");
+} else {
+    console.log("ex2 fail");
 }

@@ -1,15 +1,14 @@
-let myName = "Tan Dinh"
-console.log(myName.length)
-myName = myName + " Dtu"
-console.log(myName)
+let myName = 'Tan Dinh';
+
+console.log(myName.length);
+myName = myName + ' Dtu';
+console.log(myName);
+
 // add a variable to a string
-let str = `${myName} CMUTPM1 `
-console.log(str)
+let string1 = `${myName} CMUTPM1 `;
+console.log(string1);
 
-function fc() {
-    console.log("hello")
-}
 //add an coditional
-str= `${1===2} ${str}`
+string1 = `${1 === 2} ${string1}`;
 
-console.log(str)
+console.log(string1);

@@ -1,11 +1,14 @@
-let a=2, b=10, c="", d="hello"
-let result = 10+2
-let result2= c+d 
-let result3= a+d
-console.log(result) 
-console.log(result2) 
-console.log(result3)
-console.log(a==b)
-let f=2
-console.log(a==f)
-console.log(a===f)
+let number1 = 2, number2 = 10, string1 = "", string2 = "hello";
+let number3 = 2;
+let result = 10 + 2;
+let result2 = string1 + string2;
+let result3 = number1 + string2;
+
+console.log(result);
+console.log(result2);
+console.log(result3);
+console.log(number1 === number2);
+
+//difference between == and ===
+console.log(number1 == number3);
+console.log(number1 === number3);

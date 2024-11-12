@@ -1,30 +1,43 @@
-const a=2
-const b=10
-// addition 
-console.log(a+b)
-// subtraction 
-console.log(a-b)
-// division 
-console.log(a/b)
-// remainder 
-console.log(a%b)
-// multiplication 
-console.log(a*b)
-// exponentiation 
-console.log(a**b)
+const number1 = 2;
+const number2 = 10;
+let string1 = "hello ";
+let string2 = "world";
 
-console.log("String:")
-let c="hello "
-let d="world"
 // addition 
-console.log(c+d)
+console.log(number1 + number2);
+
 // subtraction 
-console.log(c-d)
+console.log(number1 - number2);
+
 // division 
-console.log(c/d)
+console.log(number1 / number2);
+
 // remainder 
-console.log(c%d)
+console.log(number1 % number2);
+
 // multiplication 
-console.log(c*d)
+console.log(number1 * number2);
+
 // exponentiation 
-console.log(c**d)
+console.log(number1 ** number2);
+
+//String
+console.log("String:");
+
+// addition
+console.log(string1 + string2);
+
+// subtraction 
+console.log(string1 - string2);
+
+// division 
+console.log(string1 / string2);
+
+// remainder
+console.log(string1 % string2);
+
+// multiplication 
+console.log(string1 * string2);
+
+// exponentiation 
+console.log(string1 ** string2);
