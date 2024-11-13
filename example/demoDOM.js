@@ -11,7 +11,7 @@ idQuerrySelector.textContent = 'Demo ID text updated.';
 //access list element
 const Elements = document.querySelectorAll("#demo-2");
 Elements.forEach(element => {
-    element.textContent = 'Demo-2 text updated.';
+  element.textContent = 'Demo-2 text updated.';
 });
 
 //access class
@@ -23,14 +23,14 @@ div[3].setAttribute('style', 'border: 2px solid green;');
 
 //event
 const handleClick = () => {
-    const stringFromElement = document.querySelector("#result");
-    stringFromElement.textContent = "result has changed";
+  const stringFromElement = document.querySelector("#result");
+  stringFromElement.textContent = "result has changed";
 }
 
 const button = document.querySelector("#button1");
 button.onclick = handleClick;
 
 const alertText = () => {
-    alert('this is alert?');
+  alert('this is alert?');
 }
 button.onclick = alertText;
