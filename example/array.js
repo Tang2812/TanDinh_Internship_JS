@@ -3,9 +3,9 @@ const list = ['a', 'b', 'c'];
 
 //matrix
 const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
 console.log(arrayExample);
@@ -26,7 +26,7 @@ console.log(arrayExample);
 
 
 for (const value of list) {
-    console.log(value);
+  console.log(value);
 }
 
 //Demo join 2 array
@@ -38,7 +38,7 @@ console.log(arrayConcatFromList);
 
 
 for (const value of matrix) {
-    console.log(value);
+  console.log(value);
 }
 
 //Demo function find of array

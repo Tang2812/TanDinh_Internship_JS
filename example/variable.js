@@ -8,8 +8,8 @@ console.log(number2);
 console.log(number3);
 
 function testHoisting() {
-    let number4 = 4;
-    const number5 = 5;
+  let number4 = 4;
+  const number5 = 5;
 }
 
 // console.log(number4);

@@ -1,7 +1,7 @@
 //callback
 setTimeout(() => {
-    // runs after 2 seconds
-    console.log('inside the function');
+  // runs after 2 seconds
+  console.log('inside the function');
 }, 2000);
 
 console.log("before the function");
@@ -11,42 +11,42 @@ console.log("after the function");
 
 // Promise
 const promise = new Promise((resolve, reject) => {
-    const randomNumber = Math.random();
+  const randomNumber = Math.random();
 
-    if (randomNumber < .7) {
-        resolve('All things went well!');
-    } else {
-        reject(new Error('Something went wrong'));
-    }
+  if (randomNumber < .7) {
+    resolve('All things went well!');
+  } else {
+    reject(new Error('Something went wrong'));
+  }
 });
 promise.then((data) => {
-    console.log(data);  // prints 'All things went well!'
+  console.log(data);  // prints 'All things went well!'
 
-    return data;
+  return data;
 },
-    (error) => {
-        console.log(error); // prints Error object
+  (error) => {
+    console.log(error); // prints Error object
 
-        return error;
-    }
+    return error;
+  }
 );
 
 
 // Async await
 const getData = () => {
-    return new Promise((resolve, reject) => {
-        const randomNumber = Math.random();
+  return new Promise((resolve, reject) => {
+    const randomNumber = Math.random();
 
-        if (randomNumber < .7) {
-            resolve('All things went well!');
-        } else {
-            reject(new Error('Something went wrong'));
-        }
-    });
+    if (randomNumber < .7) {
+      resolve('All things went well!');
+    } else {
+      reject(new Error('Something went wrong'));
+    }
+  });
 }
 const test = async () => {
-    const data = await getData();
-    console.log(data);
+  const data = await getData();
+  console.log(data);
 }
 
 test();
